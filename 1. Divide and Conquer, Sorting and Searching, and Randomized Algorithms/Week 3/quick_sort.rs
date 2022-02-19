@@ -27,7 +27,7 @@ fn quick_sort(arr: &mut [i32], pivot_type: &PivotType) -> i32 {
     let mut wall: usize = 0;
 
     for index in 1..arr.len() {
-        if arr[index] < arr[pivot_index] {
+        if arr[index] < arr[0] {
             // Move wall to make more space.
             wall += 1;
             // Bring element to left of wall.
