@@ -22,25 +22,25 @@ impl Node {
 
 // Union Find data structure.
 #[derive(Debug)]
-struct UnionFind {
+pub struct UnionFind {
     disjoint_sets: HashMap<i32, Node>,
 }
 
 impl UnionFind {
     // Returns an empty union find data structure.
-    fn new() -> UnionFind {
+    pub fn new() -> UnionFind {
         UnionFind {
             disjoint_sets: HashMap::new(),
         }
     }
 
     // Adds an object to union find. New object will have rank 0 and it will be its own parent.
-    fn add(&mut self, item: i32) {
+    pub fn add(&mut self, item: i32) {
         self.disjoint_sets.insert(item, Node::new(0, item));
     }
 
     // Do a union by rank of two disjoint sets.
-    fn union(&mut self, x: i32, y: i32) {
+    pub fn union(&mut self, x: i32, y: i32) {
         // Find the parent of both items.
         let parent_x = self.find(x);
         let parent_y = self.find(y);
@@ -66,7 +66,7 @@ impl UnionFind {
     }
 
     // Returns the parent of [x].
-    fn find(&mut self, x: i32) -> i32 {
+    pub fn find(&mut self, x: i32) -> i32 {
         if self.disjoint_sets.get(&x).unwrap().parent != x {
             // Apply path compression.
             self.disjoint_sets.get_mut(&x).unwrap().parent = self.find(self.disjoint_sets.get(&x).unwrap().parent);
