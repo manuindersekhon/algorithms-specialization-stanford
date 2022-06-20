@@ -40,3 +40,9 @@ $ dart run
 $ clang++ -Wall -Werror -Wno-unused-parameter -std=c++17 filename.cpp -o filename
 $ ./filename
 ```
+
+
+I will try to cover optional problems and later more techniques like linear programming, online algorithms, etc.
+
+***
+*Manuinder  Sekhon*
