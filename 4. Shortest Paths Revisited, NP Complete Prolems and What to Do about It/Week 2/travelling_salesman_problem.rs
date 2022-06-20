@@ -141,7 +141,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let distance_matrix = build_distance_matrix(&coordinates);
 
     // Calculate travelling salesman route.
-    println!("{}", compute_tsp_route(num_points, &distance_matrix).round());
+    println!("{}", compute_tsp_route(num_points, &distance_matrix));
 
     Ok(())
 }
