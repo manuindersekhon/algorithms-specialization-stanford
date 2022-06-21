@@ -9,7 +9,7 @@ Most of the problems sets are written in `Rust` (as a part of learning Rust itse
 1. [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://github.com/ManuSekhon/algorithms-specialization-stanford/tree/main/1.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms)
 1. [Graph Search, Shortest Paths, and Data Structures](https://github.com/ManuSekhon/algorithms-specialization-stanford/tree/main/2.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures)
 1. [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://github.com/ManuSekhon/algorithms-specialization-stanford/tree/main/3.%20Greedy%20Algorithms%2C%20Minimum%20Spanning%20Trees%2C%20and%20Dynamic%20Programming)
-1. [Shortest Paths Revisited, NP Complete Prolems and What to Do about It](https://github.com/ManuSekhon/algorithms-specialization-stanford/tree/main/4.%20Shortest%20Paths%20Revisited%2C%20NP%20Complete%20Prolems%20and%20What%20to%20Do%20about%20It)
+1. [Shortest Paths Revisited, NP Complete Problems and What to Do about It](https://github.com/ManuSekhon/algorithms-specialization-stanford/tree/main/4.%20Shortest%20Paths%20Revisited%2C%20NP%20Complete%20Problems%20and%20What%20to%20Do%20about%20It)
 
 Specific details are covered in each subfolder.
 
